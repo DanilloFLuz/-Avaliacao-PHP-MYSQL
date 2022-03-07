@@ -6,7 +6,7 @@
         //Recebendo informações do formulario e adicionando nas variaveis
         $produto = $_POST['produto'];
         $cor = $_POST['cor'];
-        $preco = $_POST['preco'];
+        $preco = str_replace( ",", ".",$_POST['preco']);
         $desconto = 0;
     
         if($produto != "" || $cor != "" || $preco != ""){

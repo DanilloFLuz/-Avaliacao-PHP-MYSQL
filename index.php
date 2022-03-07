@@ -47,7 +47,7 @@
                     <div class="titulo">
                         Preço:
                     </div>
-                    <input type="text" name="preco" id="preco" class="input_padrao">
+                    <input type="number" name="preco" id="preco" class="input_padrao">
                     <div class="titulo">
                         Cor:
                     </div>
